@@ -1,0 +1,156 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-9{
+	width: 75%;
+	float: left;
+}
+
+/*header css code start here*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #000;
+}
+.header .logo{
+	display: block;
+	width: 100%;
+}
+.header .navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px 0px;
+}
+.header .navbar li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: #0B2253;
+	margin: 0px 10px 0px 35px;
+}
+.header .navbar li a:hover, .header .navbar li a:focus{
+	color: #008AFF;
+}
+/*header css code end here*/
+
+/*.online-business css code start here*/
+
+.online-business{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.online-business h1{
+	font-size: 70px;
+	line-height: 80px;
+	color: #0B2253;
+	margin: 0px 0px 10px;
+}
+.online-business h1 span{
+	color: #36A3FF;
+}
+.online-business p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	margin: 0px 0px 10px;
+}
+.online-business .banner-img{
+	width: 60%;
+	margin: 20px 0px 0px;
+}
+/*.online-business css code end here*/
+
+/*successfull css code start here*/
+
+.successfull{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 80px;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+.successfull .left-text{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.successfull .left-text h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 52px;
+	line-height: 62px;
+	color: #F05162;
+	margin: 0px 0px 5px 15px;
+}
+.successfull .left-text p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	margin: 0px 0px 10px 15px;
+}
+.successfull .right-text{
+	width: 100%;
+	float: left;
+}
+.successfull .right-text h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 52px;
+	line-height: 62px;
+	color: #0B2253;
+	margin: 0px 0px 5px 15px;
+}
+
+/*future section css code start here*/
+/*future section css code end here*/
+
+/*footer code start here*/
+
+.footer{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.footer p a{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
